@@ -1,0 +1,12 @@
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Block system folders (if any)
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://yourdomain.co.za/sitemap.xml
